@@ -5,7 +5,8 @@ const Register = () => {
   return (
     <div className="flex justify-center items-center">
 
-      <div className='flex flex-col items-center justify-center my-20  pt-16  md:w-1/3 h-full border rounded-3xl  '>
+      <div className='flex flex-col items-center justify-center my-20  pt-16  
+      lg:mx-48 sm:2/3 md:w-2/4 lg:1/4 h-full border rounded-3xl  '>
         <div className="flex justify-center ">
           <div className="flex justify-center items-center">
             <span className=" pt-1 mx-3 whitespace-nowrap text-4xl italic font-light text-red-700 hover:text-gray-900">AisModa.</span>

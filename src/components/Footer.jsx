@@ -3,8 +3,14 @@ import React from "react"
 const Footer = () => {
     return (
         <footer className="border-t-2 py-16 flex flex-col">
-            <div className="flex flex-col mx-auto text-center mb-16 space-y-8  md:space-y-0 md:space-x-24 justify-center md:justify-around items-center">
-                <a className="md:self-start" href="#">
+            <div className="
+            flex flex-grow-0 flex-col md:flex-row 
+            text-center 
+            mb-16 space-y-8  
+            md:space-y-0 
+            sm:space-x-6
+            justify-center md:justify-around items-center">
+                <a className="md:self-start items-center" href="#">
                     <div className="flex justify-center items-center mb-8 md:my-0  ">
                         <div className="flex justify-center ">
                             <span className=" pt-1 mx-3 whitespace-nowrap text-4xl italic font-light text-red-700 hover:text-gray-900">AisModa.</span>
@@ -109,7 +115,7 @@ const Footer = () => {
                         </svg>
                     </a>
                 </div>
-                <span className="text-sm text-gray-500 sm:text-center"><a href="https://github.com/RagAndRoll" target="_blank" className="hover:underline">© 2022  RagAndRoll. All Rights Reserved.</a>
+                <span className="text-sm text-gray-500 text-center"><a href="https://github.com/RagAndRoll" target="_blank" className="hover:underline">© 2022  RagAndRoll. All Rights Reserved.</a>
                 </span>
             </div>
         </footer>

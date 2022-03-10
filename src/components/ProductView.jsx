@@ -6,9 +6,9 @@ const ProductView = () => {
 
         <div id="viewerBox" className="mt-16 md:p-6 p-4 bg-white">
 
-          <div className="mt-3 md:mt-4 flex items-strech justify-center lg:space-x-8">
+          <div className="mt-3 md:mt-4 flex flex-col sm:flex-row sm:space-x-4 items-strech justify-center lg:space-x-8">
             {/* img */}
-            <div className="w-2/4 flex justify-between items-strech bg-gray-50  px-2 py-20 md:py-6 md:px-6 lg:py-24">
+            <div className="w-full sm:w-2/4 flex justify-between items-strech bg-gray-50  px-2 py-20 md:py-6 md:px-6 lg:py-24">
               <div className="flex items-center">
                 <button onclick="goPrev()" aria-label="slide back" className="focus:outline-none focus:ring-2 focus:ring-gray-800 hover:bg-gray-100">
                   <svg className="w-10 h-10 lg:w-16 lg:h-16" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
