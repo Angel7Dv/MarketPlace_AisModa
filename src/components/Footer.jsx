@@ -2,11 +2,11 @@ import React from "react"
 
 const Footer = () => {
     return (
-        <footer className="border-t-2 py-16 ">
-            <div className="mx-auto text-center mb-16 flex space-x-24 justify-around items-center">
-                <a className="self-start" href="#">
-                    <div className="flex justify-center ">
-                        <div className="flex justify-center items-center">
+        <footer className="border-t-2 py-16 flex flex-col">
+            <div className="flex flex-col mx-auto text-center mb-16 space-y-8  md:space-y-0 md:space-x-24 justify-center md:justify-around items-center">
+                <a className="md:self-start" href="#">
+                    <div className="flex justify-center items-center mb-8 md:my-0  ">
+                        <div className="flex justify-center ">
                             <span className=" pt-1 mx-3 whitespace-nowrap text-4xl italic font-light text-red-700 hover:text-gray-900">AisModa.</span>
                         </div>
                     </div>
