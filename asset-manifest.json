@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MarketPlace_AisModa/static/css/main.b719c7d8.css",
-    "main.js": "/MarketPlace_AisModa/static/js/main.9e3316f5.js",
+    "main.css": "/MarketPlace_AisModa/static/css/main.a381b7cb.css",
+    "main.js": "/MarketPlace_AisModa/static/js/main.51f85878.js",
     "static/js/787.1becc7fb.chunk.js": "/MarketPlace_AisModa/static/js/787.1becc7fb.chunk.js",
     "index.html": "/MarketPlace_AisModa/index.html",
-    "main.b719c7d8.css.map": "/MarketPlace_AisModa/static/css/main.b719c7d8.css.map",
-    "main.9e3316f5.js.map": "/MarketPlace_AisModa/static/js/main.9e3316f5.js.map",
+    "main.a381b7cb.css.map": "/MarketPlace_AisModa/static/css/main.a381b7cb.css.map",
+    "main.51f85878.js.map": "/MarketPlace_AisModa/static/js/main.51f85878.js.map",
     "787.1becc7fb.chunk.js.map": "/MarketPlace_AisModa/static/js/787.1becc7fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b719c7d8.css",
-    "static/js/main.9e3316f5.js"
+    "static/css/main.a381b7cb.css",
+    "static/js/main.51f85878.js"
   ]
 }
