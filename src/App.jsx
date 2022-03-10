@@ -15,11 +15,11 @@ function App() {
 
         <Routes>
 
-          <Route path="MarketPlace_AisModa/" element={<HomePage />}/>
-          <Route path="MarketPlace_AisModa/productview/" element={<ProductView/>}/>
-          <Route path="MarketPlace_AisModa/register/" element={<Register/>}/>
-          <Route path="MarketPlace_AisModa/login/" element={<Login/>}/>
-          <Route path="MarketPlace_AisModa/cart/" element={<Cart/>}/>
+          <Route path="/" element={<HomePage />}/>
+          <Route path="productview/" element={<ProductView/>}/>
+          <Route path="register/" element={<Register/>}/>
+          <Route path="login/" element={<Login/>}/>
+          <Route path="cart/" element={<Cart/>}/>
           
 
         </Routes>
