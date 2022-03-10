@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 
 const Categories = () => {
 
@@ -8,17 +8,11 @@ const Categories = () => {
         <div className="">
 
         
-                <h1 className='text-center mt-24 mb-8 text-4xl font-medium  '>categories</h1>
-
+                <h1 className="text-center mt-24 mb-8 text-4xl font-medium  ">categories</h1>
                 <div className=" mx-auto w-1/12 ">
                     <div className="mx-auto w-1/4 border-b-4 border-gray-900">
-
                     </div>
-                
                 </div>
-          
-          
-
                 <div className="flex items-center justify-center w-full h-full py-24 sm:py-8 px-4">
                     <div className="w-full relative flex items-center justify-center">
                         <div aria-label="slide backward" className="absolute z-30 left-0 ml-10 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer" >

@@ -48,9 +48,9 @@ const Register = () => {
           </div>
         </form>
         <h6 className="mb-16 mt-4"> Already have acount?
-          <NavLink className="text-blue-500 font-bold" to="login">
+          <Link to="/MarketPlace_AisModa/login/" className="text-blue-500 font-bold" >
             Login
-          </NavLink>
+          </Link>
 
         </h6>
       </div>

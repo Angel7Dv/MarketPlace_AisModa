@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 
 const Footer = () => {
     return (
@@ -53,16 +53,16 @@ const Footer = () => {
                 <div>
                     <h1 className="text-2xl font-semibold mb-8 tracking-wide">JOIN US!</h1>
                     <form action="">
-                        <div className='flex  flex-col'>
-                            <label htmlFor="input_email" className='text-left text-red-800'>Email*</label>
+                        <div className="flex  flex-col">
+                            <label htmlFor="input_email" className="text-left text-red-800">Email*</label>
                             <input type="email" name="email" id="input_email"
                                 className="leading-none focus:outline-none border-b-2 hover:border-b-3 border-red-700" />
 
                         </div>
-                        <div className='flex justify-center mt-8'>
+                        <div className="flex justify-center mt-8">
 
                             <input type="submit" value="send"
-                                className='px-20 py-3 border border-red-500'
+                                className="px-20 py-3 border border-red-500"
                             />
                         </div>
                     </form>
