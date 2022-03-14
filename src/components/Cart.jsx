@@ -5,8 +5,6 @@ const Cart = () => {
     <div class="flex justify-center items-center my-12">
       <div class="flex flex-col md:flex-row space-x-4 items:center md:items-start justify-center my-2 pt-20 pb-8 px-8 
       w-4/5 h-full border rounded-3xl  ">
-
-
         <div class="w-full md:w-3/5 h-full">
           <h1 class="py-2 mb-8 text-xl text-gray-900 border-gray-300 border-b">My cart</h1>
           {/* iten1 */}
@@ -46,8 +44,6 @@ const Cart = () => {
             <a href="#" class="text-3xl -mt-2 pl-8   text-gray-500 hover:text-red-900"> x </a>
           </div>
         </div>
-
-
         <div class="w-full md:w-1/3 ">
           <h1 class="py-2 mb-8 text-xl text-gray-900 border-gray-300 border-b">Order summary
           </h1>
