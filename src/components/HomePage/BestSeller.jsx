@@ -1,12 +1,13 @@
-import React from 'react'
-import Carrusel2 from './Carrusel2'
+import React, { useRef } from 'react'
+
+
 
 const BestSeller = () => {
-
-
+    const snapx = useRef()
+    const images = [...Array(45).keys()];
 
     return (
-        <div className='mx-[10%] flex flex-col justify-center items-center my-16'>
+        <div className='flex flex-col justify-center items-center my-16'>
             <div>
                 <h3 className='text-bold text-2xl uppercase '> Best Seller</h3>
                 <div className='mx-[40%] my-5'>
@@ -14,7 +15,10 @@ const BestSeller = () => {
                 </div>
             </div>
 
-            <Carrusel2 />
+
+            <div className='flex justify-center my-16'>
+  
+            </div>
 
 
 

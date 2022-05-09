@@ -6,7 +6,7 @@ import Cart from "../components/Product/Card";
 
 import Register from "../components/profile/Register";
 import Login from "../components/profile/Login";
-import Profile_edit from '../components/profile/Profile_edit';
+import ProfileEdit from '../components/profile/ProfileEdit';
 const Rout = () => {
   return (
     <Routes>
@@ -14,7 +14,7 @@ const Rout = () => {
       <Route path="/cart/" element={<Cart />} />
       <Route path="/login/" element={<Login />} />
       <Route path="/user/register/" element={<Register />} />
-      <Route path="/user/Profile_edit/" element={<Profile_edit/>} />
+      <Route path="/user/ProfileEdit/" element={<ProfileEdit/>} />
       <Route path="productview/" element={<ProductView />} />
     </Routes>
   )
