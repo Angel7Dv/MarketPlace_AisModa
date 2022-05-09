@@ -1,6 +1,7 @@
 import React from 'react'
 import BestSeller from './BestSeller';
 import Hero from './Hero';
+import Scroll from './Scroll';
 
 const HomePage = () => {
     return (
@@ -8,6 +9,7 @@ const HomePage = () => {
 
             <Hero />
             <BestSeller/>
+            <Scroll/>
         </div>
     )
 }
