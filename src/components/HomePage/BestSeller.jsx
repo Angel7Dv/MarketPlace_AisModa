@@ -1,10 +1,6 @@
-import React, { useRef } from 'react'
-
-
+import Carrusel from './Carrusel'
 
 const BestSeller = () => {
-    const snapx = useRef()
-    const images = [...Array(45).keys()];
 
     return (
         <div className='flex flex-col justify-center items-center my-16'>
@@ -16,9 +12,7 @@ const BestSeller = () => {
             </div>
 
 
-            <div className='flex justify-center my-16'>
-  
-            </div>
+            <Carrusel/>
 
 
 

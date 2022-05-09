@@ -1,6 +1,6 @@
 import React from 'react'
 import BestSeller from './BestSeller';
-import Hero from "./Hero";
+import Hero from './Hero';
 
 const HomePage = () => {
     return (
