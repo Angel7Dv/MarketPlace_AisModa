@@ -72,7 +72,7 @@ const ProductView = () => {
 
 export default ProductView
 
-{/* <script>// more free and premium Tailwind CSS components at https://tailwinduikit.com/ */ }
+/* <script>// more free and premium Tailwind CSS components at https://tailwinduikit.com/ */ 
 // let slides = document.querySelectorAll(".slide-ana>div");
 // let slideSayisi = slides.length;
 // let prev = document.getElementById("prev");

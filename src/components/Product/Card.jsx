@@ -24,7 +24,7 @@ const Cart = () => {
               <input type="number" name="" id=""
                 class="flex px-2 border border-gray-900 w-1/4" value="1" />
             </div><div>$ 500</div>
-            <a href="#" class="text-3xl -mt-2 pl-8   text-gray-500 hover:text-red-900"> x </a>
+            <a href="/" class="text-3xl -mt-2 pl-8   text-gray-500 hover:text-red-900"> x </a>
           </div>
 
           {/* iten2 */}
@@ -43,7 +43,7 @@ const Cart = () => {
               <input type="number" name="" id=""
                 class="flex px-2 border border-gray-900 w-1/4" value="1" />
             </div><div>$ 500</div>
-            <a href="#" class="text-3xl -mt-2 pl-8   text-gray-500 hover:text-red-900"> x </a>
+            <a href="/" class="text-3xl -mt-2 pl-8   text-gray-500 hover:text-red-900"> x </a>
           </div>
         </div>
 
@@ -54,7 +54,7 @@ const Cart = () => {
           <div class="flex justify-between mb-16">
             <div>Total</div>
             <div>$1,150.00</div></div>
-          <a href="">
+          <a href="/">
             <div class="text-white bg-gray-900 hover:bg-gray-600 border text-center 
               w-4/5 mx-auto py-2 ">
 
