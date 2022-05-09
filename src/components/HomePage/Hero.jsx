@@ -1,10 +1,10 @@
 import React from "react"
 
-const Header = () => {
+const Hero = () => {
     return (
-        <div className="
-    min-w-full bg-[url('https://static.wixstatic.com/media/ea71bb_f6afb11f2c8f406ca1c8993c2eca99e7~mv2_d_11495_6131_s_4_2.jpg/v1/fill/w_980,h_671,al_t,q_85,usm_0.66_1.00_0.01/ea71bb_f6afb11f2c8f406ca1c8993c2eca99e7~mv2_d_11495_6131_s_4_2.webp')]
-    bg-no-repeat bg-cover bg-center min-h-screen  
+        <div className="bg-[url('https://static.wixstatic.com/media/ea71bb_f6afb11f2c8f406ca1c8993c2eca99e7~mv2_d_11495_6131_s_4_2.jpg/v1/fill/w_980,h_671,al_t,q_85,usm_0.66_1.00_0.01/ea71bb_f6afb11f2c8f406ca1c8993c2eca99e7~mv2_d_11495_6131_s_4_2.webp')]
+    bg-cover bg-center bg-no-repeat bg-fixed 
+    min-h-screen min-w-full
     "
         >
             
@@ -29,4 +29,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Hero
