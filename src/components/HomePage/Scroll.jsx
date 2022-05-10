@@ -19,13 +19,13 @@ const Scroll = () => {
         <>
 
             {items.map((e, i) => (
-                <div className={i % 2 ? 'flex justify-center' : 'flex flex-row-reverse justify-center'}>
+                <div className={i % 2 ? 'flex flex-col md:flex-row justify-center' : 'flex flex-col md:flex-row-reverse justify-center'}>
 
-                    <div className='w-1/2 '>
+                    <div className='md:w-1/2 '>
 
                         <div className='group flex items-center justify-center flex-col relative
                     bg-no-repeat bg-screen bg-cover  bg-center
-                    h-full w-auto'
+                    h-[25rem] md:h-full  w-auto'
                             style={{ "backgroundImage": `url('${e.bg}')` }}   >
                             {/* <img src={e.bg} alt={e.name}  className='w-[465px] object-cover object-center object-no-repeat object-fixed' /> */}
                             <h2 className='text-white text-3xl underline underline-offset-2'>{e.name}</h2>
@@ -33,7 +33,7 @@ const Scroll = () => {
                         </div>
                     </div>
 
-                    <div className='w-1/2 h-full py-16 bg-[#F7F2F1]'>
+                    <div className='md:w-1/2 h-full py-16 bg-[#F7F2F1]'>
                         <div className='group flex flex-col mb-4 items-center justify-center'  >
                             <img src={e.img} alt={e.name} className='object-cover object-center h-2/3 w-auto' />
                                 <h2 className=' text-lg'>Quick View</h2>
